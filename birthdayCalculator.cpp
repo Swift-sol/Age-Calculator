@@ -100,7 +100,7 @@ int main()
             cout << "\nWow...This is your birthday month:";
             if (bd<d) {
                 birtH = d-bd;
-                cout << "\nNow you are " << "'" << y - yr - 1 << "' years and '"<<birtH<<"' days old.";
+                cout << "\nNow you are " << "'" << y - yr  << "' years and '"<<birtH<<"' days old.";
             }
             if (bd>d) { //calculate days
                 birtH = bd-d;
