@@ -34,7 +34,7 @@ int main()
                 cout<<"Enter your birthday year again:";
                 cin>>yr;
             }
-        }while (1870>yr || yr>2019);
+        }while (1870>yr || yr>1900+ltm->tm_year);
         cout<<"Enter Month: ";
         cin>>mon;
         do
@@ -69,7 +69,7 @@ int main()
                     cout<<"Enter your birthday again:";
                     cin>>bd;
                 }
-            }while (1>bd || bd>281);
+            }while (1>bd || bd>28);
         }
         if (mon==4 || mon==6 ||  mon==9 ||  mon==11) { //check months within 1&30
             cout<<"Enter Date: ";
