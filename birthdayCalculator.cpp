@@ -29,7 +29,7 @@ int main()
         cin>>yr;
         do
         {
-            if (1870>yr || yr>2019){//check within 150 year old
+            if (1870>yr || yr> 1900+ltm->tm_year){//check within 150 year old
                 cout<<"Impossible birthday.\n";
                 cout<<"Enter your birthday year again:";
                 cin>>yr;
